@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <header>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="This is KoKoa clone html">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kokoa clone Index</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+      />
+    </header>
+    <body>
+        <div class="body__body-row">
+            <div class="body-row_body__column-12">
+                <div class="navigation-bar">
+                    <div class="navigation-bar__row">
+                        <div class="navigation-bar-navigation-bar-column">
+                            <nav class="nav">
+                                <ul class="nav-list">
+                                    <li class="nav-list-item">
+                                        <a href="friends.html">
+                                            <i class="fas fa-user"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                      <a href="charts.html">
+                                        <div class="nav__badge">22</div>
+                                        <i class="far fa-comment"></i>
+                                      </a>
+                                  </li>
+                                  <li class="nav-list-item">
+                                      <a href="more.html">
+                                        <div class="nav__badge">N</div>
+                                        <i class="fas fa-ellipsis-h"></i>
+                                      </a>   
+                                  </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="navigation-bar-row__navigation-bar-column">
+                            <nav class="nav">
+                                <ul class="nav-list">
+                                    <li class="nav-list-item">
+                                        <i class="far fa-smile"></i>
+                                    </li>
+                                    <li class="nav-list-item">
+                                      <i class="far fa-bell"></i>
+                                  </li>
+                                  <li class="nav-list-item">
+                                      <i class="fas fa-cog"></i>
+                                  </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                <div class="main-div">
+                    <header class="header">
+                        <div class="header__header-row">
+                          <div class="header__header-column">
+                              <div class="dropdown">
+                                  <button class="dropdown-toggle" data-toggle="dropdown" type="button">채팅</button>
+                                  <div class="dropdown-menu" role="menu">
+                                     <a class="dropdown-item" role="presentation" href="#">최신 메시지 순</a>
+                                     <a class="dropdown-item" role="presentation" href="#">안 읽은 메시지 순</a>
+                                     <a class="dropdown-item" role="presentation" href="#">즐겨찾기 순</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="header__header-column">
+                              <i class="far fa-comments" title="오픈 채팅"></i>
+                              <i class="far fa-plus-square" title="새로운 채팅"></i>
+                        </div>
+                      </div>
+                      <div class="header__sub-header-row">
+                          <div class="header__sub-header-div">
+                              <i class="fas fa-search"></i>
+                              <input class="header__sub-header-input" type="text" placeholder="채팅방 이름,참여자 검색">
+                          </div>
+                      </div>
+                    </header>
+                    <main>
+                        <ul class="chats">
+                            <li class="chats__chat friend ">
+                                <div class="chat__div">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="chat__content">
+                                        <span class="chat__name">...</span>
+                                        <span class="chat__status"></span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chat__date">오후 2:13</span>
+                                    <div class="chat__bedge">1</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </main>
+                </div>
+            </div>
+            <div class="body-row__body-column-12">
+                <div class="body__body-row banner">
+                    <img src="images/banner2.jpg" alt="banner"></img>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>   

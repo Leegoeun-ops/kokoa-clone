@@ -1,13 +1,31 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Test Home Page</title>
-    </head>
-    <body style="background-color: blueviolet;">
-        <p>테스트 페이지 입니다.</p>
-        <h3>H3 테스트</h3>
-        <h1>H2 테스트</h1>
-        <h1>H3 테스트</h1>
-        <h1>H4 테스트</h1>
-        <h1>H1 테스트</h1>
+    <header>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+    </header>
+    <body>
+        <div class="main-div">
+            <div class="section">
+                <img class="index-image" src= "images/index.jpg" alt="index-image">
+                <div class="index__log-in">
+                    <select class ="header__title select" name="id" id="id">
+                        <option value="10">lgy0109@naver.com</option>
+                    </select>
+                    <input class="" placeholder="비밀번호" type="password">
+                </div>
+                <button class="index-button">로그인</button>
+                <div class="index__checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span>잠금모드로 자동로그인</span>
+                </div>
+            </div>
+            <div class="section">
+                <ul class="index__list">
+                    <li class="index__list-item">카카오 계정 찾기</li>
+                    <li class="index__list-item">비밀번호 재설정</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
