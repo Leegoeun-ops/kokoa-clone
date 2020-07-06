@@ -1,0 +1,97 @@
+section{
+    width: 100%;
+    height: 100%
+}
+
+.index__empty-row{
+    width: 100%;
+    height: 40px;
+}
+
+.index-image{
+    width: 100%;
+    height: 100%;
+}
+.index__main-div{
+    width: 360px;
+    height: 590px;
+    background-color:#FFEB33;
+}
+
+.index__img-section{
+    background-image: url("../images/index.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 230px;
+}
+
+.index__log-in{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.log-in__content{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    width: 240px;
+    height: 40px;
+    font-weight: 100;
+}
+
+.log-in__button{
+    background-color: #3f3834;
+    color: white;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.index__checkbox-div{
+    width: 360px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    justify-content: center;
+}
+
+.log-in__content-size{
+    width: 240px;
+    height: 15px;
+    align-items: center;
+    display: flex;
+}
+
+.index__checkbox{
+    width: 15px;
+    height: 15px;
+}
+.span{
+    height: 15px;
+    font-size: 12px;
+    opacity: 0.6;
+
+}
+
+.index__list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.index__list li::after{
+    padding: 0px 5px;
+    content: "|";
+}
+.index__list li:last-child::after{
+    content: "";
+}
+
+.index__list-item{
+    font-size: 12px;
+    display: inline-block;
+    opacity: 0.6;
+}

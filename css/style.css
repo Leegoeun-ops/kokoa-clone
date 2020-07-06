@@ -1,2 +1,11 @@
 @import "chats.css";
 @import "reset.css";
+@import "friends.css";
+@import "index.css";
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:600');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Black Han Sans";
+}
