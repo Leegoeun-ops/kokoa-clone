@@ -1,6 +1,61 @@
+.body__div{
+    width: 390px;
+    height: 560px;
+}
+
+.div__div-content{
+    width: 390px;
+    height: 460px;
+    background-color: yellow;
+    display: flex!important;
+}
+
+.body__body-row{
+    width: 390px;
+    height: 495px;
+    display: block;
+}
+
+.body-row_body__column-12{
+    width: 390px;
+    height: 495px;
+    display: flex;
+    float: left;
+}
+
+.friend__div-lg{
+    width: 50px;
+    height: 50px;
+}
+
+.friend__div{
+    width: 35px;
+    height: 35px;
+}
+
+.navigation-bar{
+    width: 65px;
+    height: 460px;
+    float: left;
+    background-color: orange;
+    overflow: hidden;
+    position: relative;
+}
+
 .main-div{
-    background-color: white;
-    color: black;
-    width: 360px;
-    height: 590px;
+    width: 325px;
+    height: 460px;
+    float: right;
+    background-color: blue;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+}
+
+.div__div-banner{
+    width: 390px;
+    height: 100px;
+    clear: both;
+    position: relative;
+    background-image: url("../images/banner1.jpg");
 }

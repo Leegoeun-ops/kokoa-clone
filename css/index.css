@@ -69,6 +69,7 @@ section{
     width: 15px;
     height: 15px;
 }
+
 .span{
     height: 15px;
     font-size: 12px;
@@ -86,6 +87,7 @@ section{
     padding: 0px 5px;
     content: "|";
 }
+
 .index__list li:last-child::after{
     content: "";
 }

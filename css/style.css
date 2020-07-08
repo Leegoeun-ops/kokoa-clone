@@ -8,4 +8,8 @@
 }
 body{
     font-family:"Black Han Sans";
+    display:block;
+    width: 390px;
+    height: 560px;
 }
+
