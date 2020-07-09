@@ -256,6 +256,9 @@ nav > i {
     height: 100px;
     clear: both;
     position: relative;
-    background-image: url("../images/banner1.jpg");
     background-size: contain;
+}
+
+.banner1{
+    background-image: url("../images/banner1.jpg");
 }

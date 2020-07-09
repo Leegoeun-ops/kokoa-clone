@@ -1,0 +1,13 @@
+.dropdown-toggle{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.right > i{
+    margin-left: 10px;
+}
+
+.banner2{
+    background-image: url("../images/banner2.jpg");
+}
