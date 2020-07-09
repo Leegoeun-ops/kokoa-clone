@@ -24,10 +24,10 @@
                     <select class ="log-in__content" name="id" id="id">
                         <option class ="log-in__content" value="10">lgy0109@naver.com</option>
                     </select>
-                    <input class="log-in__content" placeholder="비밀번호" type="password"/>
+                    <input onkeyup="myFunction()" class="log-in__content" placeholder="비밀번호" type="password"/>
                 </div>
                 <div class="index__log-in">
-                    <button class="log-in__button log-in__content">로그인</button>
+                    <button disabled="" id="button" class="log-in__button">로그인</button>
                 </div>
                 <div class="index__checkbox-div">
                     <div class="log-in__content-size">
@@ -41,5 +41,13 @@
                 </ul>
             </section>
         </div>
+        <script>
+            function myFunction() {
+                var button = document.getElementById("button");
+                button.style.backgroundColor = "#3f3834";
+                button.style.color ="white";
+                button.disabled = false;
+            }
+            </script>
     </body>
 </html>
