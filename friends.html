@@ -71,84 +71,128 @@
                         </div>
                       </div>
                       <div class="header__sub-header-row">
-                          <div class="header__sub-header-div">
-                              <i class="fas fa-search"></i>
-                              <input class="header__sub-header-input" type="text" placeholder="채팅방 이름,참여자 검색">
-                          </div>
+                        <div class="header__sub-header-wrapper">
+                            <input class="sub-header-wrapper__sub-header-input" type="text" placeholder="이름 검색"/>
+                            <i class="fas fa-search"></i>  
+                        </div>
                       </div>
                     </header>
                     <main>
-                        <header class="friends__header">
-                            <ul class="friends">
-                                <li class="friends__friend friend">
-                                    <div class="friend__div-lg">
-                                    <img class = "g-avatar-lg" src="images/avatar.jpg" alt="me">
-                                    <div class="friend__content">
-                                        <span class="friend__name">이고은</span>
-                                        <span class="friend__status">I hate exersize!</span>
-                                    </div>
-                                    </div>
-                                    <div class="friend__div">
+                        <div style="overflow-y: scroll;" class="scroll">
+                            <header class="friends__header">
+                                <ul class="friends">
+                                    <li class="friends__friend friend--lg">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                            <span class="friend__name">이고은</span>
+                                            <span class="friend__status">I hate exersize</span>
+                                        </div>
                                         <div class="profile-music border-green">
                                             <span>METEOR - 창모 (CHANGMO)</span>
                                             <i class="fas fa-play"></i>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </header>
-                        <div class="friends__birthday">
-                            <h5 class="birthday__title">생일인 친구</h5>
-                            <ul class="birthday-list">
-                                <li class="birthday-list__birthday friend friend--md">
-                                    <div class="friend__div">
-                                        <img class = "g-avatar-md" src="images/avatar.jpg" alt="birthday">
-                                        <div class="birthday__content">
-                                        <span class="birthday__name">이지수</span>
-                                        <span class="birthday_status"></span>
+                                    </li>
+                                </ul>
+                            </header>
+                            <div class="friends__birthday">
+                                <h5 class="birthday__title">생일인 친구</h5>
+                                <ul class="birthday-list">
+                                    <li class="friends__friend friend--md">
+                                        <img  src="images/avatar.jpg" alt="birthday">
+                                        <div class="friend__content">
+                                        <span class="friend__name">이지수</span>
+                                        <span class="friend__status"></span>
                                         </div>
-                                    </div>
-                                    <div class="friend__div">
                                         <div class="profile-music border-red ">
                                             <span>
                                                 이모티콘 선물
                                             </span>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="birthday-list__birthday friend friend--md">
-                                    <div class="friend__div">
-                                        <img class = "g-avatar-md" src="images/avatar.jpg" alt="birthday">
-                                        <div class="birthday__content">
-                                            <span class="birthday__name">친구의 생일을 확인하세요!</span>
-                                            <span class="birthday_status"></span>
-                                        </div>  
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <ul class="friends">
-                            <li class="friends__friend friend friend--sm">
-                                <div class="friend__div">
-                                    <img class = "g-avatar-sm" src="images/avatar.jpg" alt="me">
-                                    <div class="friend__content">
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="birthday">
+                                        <div class="friend__content">
+                                        <span class="friend__name">친구의 생일을 확인하세요!</span>
+                                        <span class="friend__status"></span>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="friends__friends">
+                                <ul class="friends-list">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
                                         <span class="friend__name">...</span>
                                         <span class="friend__status"></span>
-                                    </div>
-                                </div>
-                                <div class="friend__div">
-                                    <div class="profile-music">
-                                        <span>...</span>
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>    
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="profile-music">
+                                            <span>...</span>
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
                     </main>
                 </div>
             </div>
             <div class="div__div-banner">
-    
             </div>
         </div>
     </body>
