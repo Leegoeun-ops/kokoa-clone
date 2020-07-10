@@ -21,5 +21,11 @@
     width: 35px;
     height: 35px;
     border-radius: 15px;
-    border: 0.4px solid black;
+    border: 0.4px solid #0008;
+}
+
+.more__suggestions-list{
+    display: flex;
+    flex-direction: column;
+    
 }

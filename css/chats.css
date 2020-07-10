@@ -1,15 +1,60 @@
-.dropdown{
-    
-}
-
 .dropdown-toggle{
     background-color: white;
     border: none;
     font-size: 20px;
 }
 
+.chats{
+    margin-top: 5px;
+}
+
+.friend__name-fix{
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+.friend__count{
+    margin-left: 5px;
+}
+
+.friend__name-fix > i {
+    margin: 0px;
+}
+
 .right > i{
     margin-left: 10px;
+}
+
+.chats-badge{
+    display: flex;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 3px;
+    right: 45px;
+}
+
+.friend__chats-status{
+    white-space: normal;
+}
+
+.friend__chats-content-2{
+    margin: 3px 0px;
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    flex-direction: column;
+    display: block;
+    justify-content: center;
 }
 
 .banner2{
