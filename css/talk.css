@@ -1,3 +1,18 @@
 .talk__main-div {
-    background-image: url("../images/grilled.jpg");
+    background-image: url("../images/doodles.jpg");
+}
+
+.talk__header{
+    width: 100%;
+    height: 55px;
+}
+
+.talk__main-div{
+    width: 100%;
+    height: 450px;
+}
+
+.talk__footer{
+    width: 100%;
+    height: 55px;
 }
