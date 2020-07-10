@@ -65,11 +65,11 @@
                         <div class="header__header-row">
                             <div class="header__header-column">
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle" data-toggle="dropdown" type="button">채팅</button>
+                                    <button class="dropdown-toggle " data-toggle="dropdown" type="button">채팅</button>
                                     <div class="dropdown-menu" role="menu">
-                                       <a class="dropdown-item" role="presentation" href="#">최신 메시지 순</a>
-                                       <a class="dropdown-item" role="presentation" href="#">안 읽은 메시지 순</a>
-                                       <a class="dropdown-item" role="presentation" href="#">즐겨찾기 순</a>
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">최신 메시지 순</a>
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">안 읽은 메시지 순</a>
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">즐겨찾기 순</a>
                                     </div>
                                 </div>
                             </div>
@@ -87,19 +87,21 @@
                     </header>
                     <main class="scroll">
                         <ul class="chats">
-                            <li class="chats__chat friend--md ">
+                            <li class="friends__friend friend--md ">
                                 <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
                                 <div class="friend__content">
                                     <div class="?????">
-                                        <span class="chat__name">...</span>
-                                        <span class="????">...</span>
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status">...</span>
+                                        
+                                        <span class="????">16</span>
                                         <i class="fas fa-thumbtack"></i>
                                     </div>
                                     <div class="???????">
                                         <span class="chat__status"></span>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="friend__content">
                                     <span class="chat__date">오후 2:13</span>
                                     <div class="chat__bedge">1</div>
                                 </div>

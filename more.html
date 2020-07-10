@@ -15,64 +15,64 @@
       />
     </head>
     <body>
-        <div class="body__body-row">
-            <div class="body-row_body__column-12">
+        <div class="body__div">
+            <div class="div__div-content">
                 <div class="navigation-bar">
-                    <div class="navigation-bar__row">
-                        <div class="navigation-bar-navigation-bar-column">
-                            <nav class="nav">
-                                <ul class="nav-list">
-                                    <li class="nav-list-item">
-                                        <a href="friends.html">
-                                            <i class="fas fa-user"></i>
-                                        </a>
-                                    </li>
-                                    <li class="nav-list-item">
-                                      <a href="charts.html">
-                                        <div class="nav__badge">22</div>
-                                        <i class="far fa-comment"></i>
-                                      </a>
-                                  </li>
-                                  <li class="nav-list-item">
-                                      <a href="more.html">
-                                        <div class="nav__badge">N</div>
-                                        <i class="fas fa-ellipsis-h"></i>
-                                      </a>   
-                                  </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="navigation-bar-row__navigation-bar-column">
-                            <nav class="nav">
-                                <ul class="nav-list">
-                                    <li class="nav-list-item">
-                                        <i class="far fa-smile"></i>
-                                    </li>
-                                    <li class="nav-list-item">
-                                      <i class="far fa-bell"></i>
-                                  </li>
-                                  <li class="nav-list-item">
-                                      <i class="fas fa-cog"></i>
-                                  </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                <div class=main-div">
+                    <nav class="navigation-bar__nav-1">
+                        <ul class="nav-list">
+                            <li id="friend-icon" class="nav-1 nav-list-item">
+                                <a title="친구" href="friends.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-1 nav-list-item">
+                                <a title="채팅" href="charts.html">
+                                    <div class="nav__badge">22</div>
+                                    <i class="far fa-comment"></i>
+                                </a>
+                            </li>
+                            <li class="nav-1 nav-list-item">
+                                <a title="더보기" href="more.html">
+                                    <div class="nav__badge">N</div>
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </a>   
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="navigation__empty-div"></div>
+                    <nav class="navigation-bar__nav-2">
+                        <ul class="nav-list">
+                            <li class="nav-2 nav-list-item">
+                                <div class="badge-sm nav__badge"></div>
+                                <i class="far fa-smile" title="카카오 이모티콘 샵"></i>
+                            </li>
+                            <li class="nav-2 nav-list-item">
+                              <i class="far fa-bell" title="알림"></i>
+                            </li>
+                            <li class="nav-2 nav-list-item">
+                              <i class="fas fa-cog" title="설정"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-div">
                     <header class="header">
+                        <nav class="status-bar">
+                            <i class="far fa-window-minimize" title="최소화"></i>
+                            <i class="far fa-window-maximize" title="최대화"></i>
+                            <i class="far fa-window-close" title="닫기"></i>
+                        </nav>
                         <div class="header__header-row">
                           <div class="header__header-column">
                               <h1 class="header__title">더보기</h1>
                           </div>
                         </div>
-                        <ul class="more">
-                            <li class="more friend">
-                                <div class="more__div">
-                                    <img class ="g-avatar-sm" src="images/avatar.jpg" alt="me">
-                                    <div class="chat__content">
-                                        <span class="more__name">...</span>
-                                        <span class="more__status"></span>
-                                    </div>
+                        <ul class="more-list">
+                            <li class="friend--more">
+                                <img src="images/avatar.jpg" alt="me">
+                                <div class="friend__content">
+                                <span class="friend__status">이고은</span>
+                                <span class="friend__status-mail" >xxx.@kakao.com</span>
                                 </div>
                             </li>
                         </ul>
@@ -139,10 +139,7 @@
                     </main>
                 </div>
             </div>
-            <div class="body-row__body-column-12">
-                <div class="body__body-row banner">
-                    <img src="images/banner3.jpg" alt="banner"></img>
-                </div>
+            <div class="div__div-banner banner3">
             </div>
         </div>
     </body>
