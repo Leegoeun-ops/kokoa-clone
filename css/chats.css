@@ -8,6 +8,20 @@
     margin-top: 5px;
 }
 
+.chats--md{
+    width: 100%;
+    height: 65px;
+    padding: 7px 20px;
+    padding-right: 0px;
+}
+
+.chats--md > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 18px;
+    border: 0.4px solid #0008;
+}
+
 .friend__name-fix{
     font-weight: 300;
     font-size: 15px;
@@ -27,23 +41,29 @@
 }
 
 .chats-badge{
-    display: flex;
+    display: block;
     text-align: center;
     width: 18px;
     height: 18px;
     border-radius: 20px;
     text-decoration: none;
-    position: absolute;
     background-color: red;
     color: white;
     box-sizing: border-box;
-    display: block;
     margin-top: 3px;
-    right: 45px;
 }
 
 .friend__chats-status{
     white-space: normal;
+    display: grid;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.friend__chats-status-right{
+    display: grid;
+    justify-content: end;
+    padding-right: 10px;
 }
 
 .friend__chats-content-2{
@@ -51,10 +71,10 @@
     max-width: 100px;
     width: 100%;
     height: 100%;
-    margin: 5px;
+    margin: 0px;
     flex-direction: column;
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner2{
