@@ -177,6 +177,15 @@ nav > i {
     overflow-y: scroll;
 }
 
+ul > a{
+    text-decoration-line: none;
+} 
+
+ul > a :hover{
+    text-decoration-line: none;
+    color: black;
+} 
+
 hr{
     margin-top: 0px;
     margin-bottom: 10px;
@@ -196,7 +205,7 @@ h5{
 }
 
 .friends__friend:hover{
-    background-color: #ECECED;;
+    background-color: #ECECED;
 }
 
 .friend--lg{
