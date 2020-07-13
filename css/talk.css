@@ -16,3 +16,14 @@
     width: 100%;
     height: 55px;
 }
+
+.send__profile-div{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.receive__talk-div{
+
+}
