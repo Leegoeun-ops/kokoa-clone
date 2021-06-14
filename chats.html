@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="This is KoKoa clone html">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kokoa clone Index</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+      />
+    </head>
+    <body>
+        <div class="body__div">
+            <div class="div__div-content">
+                <div class="navigation-bar">
+                    <nav class="navigation-bar__nav-1">
+                        <ul class="nav-list">
+                            <li id="friend-icon" class="nav-1 nav-list-item">
+                                <a title="친구" href="friends.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-1 nav-list-item">
+                                <a title="채팅" href="charts.html">
+                                    <div class="nav__badge">22</div>
+                                    <i class="far fa-comment"></i>
+                                </a>
+                            </li>
+                            <li class="nav-1 nav-list-item">
+                                <a title="더보기" href="more.html">
+                                    <div class="nav__badge">N</div>
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </a>   
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="navigation__empty-div"></div>
+                    <nav class="navigation-bar__nav-2">
+                        <ul class="nav-list">
+                            <li class="nav-2 nav-list-item">
+                                <div class="badge-sm nav__badge"></div>
+                                <i class="far fa-smile" title="카카오 이모티콘 샵"></i>
+                            </li>
+                            <li class="nav-2 nav-list-item">
+                              <i class="far fa-bell" title="알림"></i>
+                            </li>
+                            <li class="nav-2 nav-list-item">
+                              <i class="fas fa-cog" title="설정"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-div">
+                    <header class="header">
+                        <nav class="status-bar">
+                            <i class="far fa-window-minimize" title="최소화"></i>
+                            <i class="far fa-window-maximize" title="최대화"></i>
+                            <i class="far fa-window-close" title="닫기"></i>
+                        </nav>
+                        <div class="header__header-row">
+                            <div class="header__header-column">
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle " data-toggle="dropdown" type="button">채팅</button>
+                                    <div class="dropdown-menu" role="menu">
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">최신 메시지 순</a>
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">안 읽은 메시지 순</a>
+                                       <a style="display: none;" class="dropdown-item" role="presentation" href="#">즐겨찾기 순</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__header-column right">
+                                <i class="far fa-comments" title="오픈 채팅"></i>
+                                <i class="far fa-plus-square" title="새로운 채팅"></i>
+                            </div>
+                        </div>
+                        <div class="header__sub-header-row">
+                            <div class="header__sub-header-wrapper">
+                                <input class="sub-header-wrapper__sub-header-input" type="search" placeholder="채팅방 이름, 참여자 검색"/>
+                                <i class="fas fa-search"></i>  
+                            </div>
+                        </div>
+                    </header>
+                    <main class="scroll">
+                        <ul class="chats">
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>
+                                                <i class="fas fa-thumbtack"></i>    
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">어제</span>
+                                        <span class="friend__chats-status-right">
+                                            <div class="chats-badge">1</div>
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>  
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">오후 2:13</span>
+                                        <span class="friend__chats-status-right">
+                                            <div class="chats-badge">7</div>
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>  
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">오후 2:13</span>
+                                        <span class="friend__chats-status-right">
+    
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>  
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">오후 2:13</span>
+                                        <span class="friend__chats-status-right">
+                                            <div class="chats-badge">1</div>
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">오후 2:13</span>
+                                        <span class="friend__chats-status-right">
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="talk.html" target="_blank">
+                                <li class="friends__friend chats--md">
+                                    <img class ="g-avatar-md" src="images/avatar.jpg" alt="me">
+                                    <div class="friend__content">
+                                        <div class="friend__name">
+                                            <span>스몰머신즈</span>
+                                            <div class="friend__name-fix">
+                                                <span class="friend__count">16</span>
+                                            </div>                                    
+                                        </div>
+                                        <div class="friend__status">
+                                            <span class="friend__chats-status">ㅎㅎㅎ</span>
+                                        </div>
+                                    </div>
+                                    <div class="friend__chats-content-2">
+                                        <span class="friend__chats-status">오후 2:13</span>
+                                        <span class="friend__chats-status-right">
+                                        </span>
+                                    </div>
+                                </li>
+                            </a>
+                        </ul>
+                    </main>
+                </div>
+            </div>
+            <div class="div__div-banner banner2">
+            </div>
+        </div>
+    </body>
+</html>   

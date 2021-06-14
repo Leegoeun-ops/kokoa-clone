@@ -1,0 +1,30 @@
+.banner3{
+    background-image: url("../images/banner3.jpg");
+}
+
+.friend__status-mail{
+    margin: 0px 5px;
+    display: inline;
+    border:1px solid red;
+    font-size: 11px ;
+}
+
+.friend--more{
+    display: inline-flex;
+    width: 100%;
+    height: 45px;
+    padding: 5px 15px;
+}
+
+.friend--more > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    border: 0.4px solid #0008;
+}
+
+.more__suggestions-list{
+    display: flex;
+    flex-direction: column;
+    
+}

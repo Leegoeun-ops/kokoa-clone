@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="This is KoKoa clone html">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kokoa clone friends</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+      />
+        <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+        <div class="body__div">
+            <div class="div__div-content">
+                <div class="navigation-bar">
+                    <nav class="navigation-bar__nav-1">
+                        <ul class="nav-list">
+                            <li id="friend-icon" class="nav-1 nav-list-item">
+                                <a title="친구" href="friends.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-1 nav-list-item">
+                                <a title="채팅" href="charts.html">
+                                    <div class="nav__badge">22</div>
+                                    <i class="far fa-comment"></i>
+                                </a>
+                          </li>
+                          <li class="nav-1 nav-list-item">
+                                <a title="더보기" href="more.html">
+                                    <div class="nav__badge">N</div>
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </a>   
+                          </li>
+                        </ul>
+                    </nav>
+                    <div class="navigation__empty-div"></div>
+                    <nav class="navigation-bar__nav-2">
+                        <ul class="nav-list">
+                            <li class="nav-2 nav-list-item">
+                                <div class="badge-sm"></div>
+                                <i class="far fa-smile" title="카카오 이모티콘 샵"></i>
+                            </li>
+                            <li class="nav-2 nav-list-item">
+                              <i class="far fa-bell" title="알림"></i>
+                          </li>
+                          <li class="nav-2 nav-list-item">
+                              <i class="fas fa-cog" title="설정"></i>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-div">
+                    <header class="header">
+                        <nav class="status-bar">
+                            <i class="far fa-window-minimize" title="최소화"></i>
+                            <i class="far fa-window-maximize" title="최대화"></i>
+                            <i class="far fa-window-close" title="닫기"></i>
+                        </nav>
+                        <div class="header__header-row">
+                          <div class="header__header-column">
+                              <h1 class="header__title">친구</h1>
+                          </div>
+                          <div class="header__header-column right">
+                              <i class="fas fa-user-plus" title="친구 추가"></i>
+                          </div>
+                        </div>
+                        <div class="header__sub-header-row">
+                            <div class="header__sub-header-wrapper">
+                                <input class="sub-header-wrapper__sub-header-input" type="search" placeholder="이름 검색"/>
+                                <i class="fas fa-search"></i>  
+                            </div>
+                        </div>
+                    </header>
+                    <main class="scroll">
+                        <header class="friends__header">
+                            <ul class="friends">
+                                <a href="talk.html" target="_blank" rel="noopener noreferrer">
+                                    <li class="friends__friend friend--lg">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                            <span class="friend__name">이고은</span>
+                                            <span class="friend__status">I want to make border-box</span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music border-green right">
+                                                <span>METEOR - 창모 (CHANGMO)</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </header>
+                        <div class="friends__birthday">
+                            <div class="ui-title">
+                                <hr></hr>
+                                <h5>생일인 친구</h5>
+                            </div>
+                            <ul class="birthday-list">
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img  src="images/avatar.jpg" alt="birthday">
+                                        <div class="friend__content">
+                                        <span class="friend__name">이지수
+                                            <i class="fas fa-birthday-cake"></i>
+                                        </span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music border-red">
+                                                <span>
+                                                    이모티콘 선물
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="birthday">
+                                        <div class="friend__content">
+                                            <span class="friend__name">친구의 생일을 확인해보세요!
+                                                <div class="friend__name-fix">
+                                                    <span class="friend__count">16</span>   
+                                                </div>  
+                                            </span>
+                                        </div> 
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="friends__friends">
+                            <ul class="friends-list">
+                                <div class="ui-title">
+                                    <hr></hr>
+                                    <h5>즐겨찾기</h5>
+                                </div>
+                                <a href="talk.html" target="_blank" >
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music">
+                                                <span>...</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music">
+                                                <span>...</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music">
+                                                <span>...</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music">
+                                                <span>...</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                <a href="talk.html" target="_blank">
+                                    <li class="friends__friend friend--md">
+                                        <img src="images/avatar.jpg" alt="me">
+                                        <div class="friend__content">
+                                        <span class="friend__name">...</span>
+                                        <span class="friend__status"></span>
+                                        </div>
+                                        <div class="friend__content-2">
+                                            <div class="profile-music">
+                                                <span>...</span>
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                                
+                            </ul>
+                        </div> 
+                    </main>
+                </div>
+            </div>
+            <div class="div__div-banner banner1">
+            </div>
+        </div>
+    </body>
+</html>

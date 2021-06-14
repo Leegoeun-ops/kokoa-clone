@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="This is KoKoa clone html">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kokoa clone Index</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+      />
+    </head>
+    <body>
+       <div class="index__main-div main-div">
+            <section class="index__img-section">
+            </section>
+            <section class="index__log-in-section">
+                <div class="index__log-in">
+                    <input style="display:none" type="text"></input>
+                    <select class ="log-in__content" name="id" id="id">
+                        <option class ="log-in__content" value="10">lgy0109@naver.com</option>
+                    </select>
+                    <input onkeyup="myFunction()" class="log-in__content" placeholder="비밀번호" type="password"/>
+                </div>
+                <div class="index__log-in">
+                    <button disabled="" id="button" class="log-in__button">로그인</button>
+                </div>
+                <div class="index__checkbox-div">
+                    <div class="log-in__content-size">
+                        <input class="index__checkbox" type="checkbox" name="checkbox" id="checkbox"/>
+                        <span class="span">잠금모드로 자동로그인</span>
+                    </div>
+                </div>
+                <ul class="index__list">
+                    <li class="index__list-item">카카오 계정 찾기</li>
+                    <li class="index__list-item">비밀번호 재설정</li>
+                </ul>
+            </section>
+        </div>
+        <script>
+            function myFunction() {
+                var button = document.getElementById("button");
+                button.style.backgroundColor = "#3f3834";
+                button.style.color ="white";
+                button.disabled = false;
+            }
+            
+            </script>
+    </body>
+</html>

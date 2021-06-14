@@ -1,0 +1,82 @@
+.dropdown-toggle{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.chats{
+    margin-top: 5px;
+}
+
+.chats--md{
+    width: 100%;
+    height: 65px;
+    padding: 7px 20px;
+    padding-right: 0px;
+}
+
+.chats--md > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 18px;
+    border: 0.4px solid #0008;
+}
+
+.friend__name-fix{
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+.friend__count{
+    margin-left: 5px;
+}
+
+.friend__name-fix > i {
+    margin: 0px;
+}
+
+.right > i{
+    margin-left: 10px;
+}
+
+.chats-badge{
+    display: block;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+
+.friend__chats-status{
+    white-space: normal;
+    display: grid;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.friend__chats-status-right{
+    display: grid;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.friend__chats-content-2{
+    margin: 3px 0px;
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner2{
+    background-image: url("../images/banner2.jpg");
+}
